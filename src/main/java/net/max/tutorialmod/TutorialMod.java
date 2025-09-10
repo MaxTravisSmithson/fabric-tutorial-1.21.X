@@ -2,6 +2,10 @@ package net.max.tutorialmod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.registry.FuelRegistry;
+import net.max.tutorialmod.block.ModBlocks;
+import net.max.tutorialmod.item.ModItemGroups;
+import net.max.tutorialmod.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -11,6 +15,11 @@ public class TutorialMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroups.registerItemGroups();
 
+		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
+
+		FuelRegistry.INSTANCE.add(ModItems.STARLIGHT_ASHES, 32000);
 	}
 }
