@@ -36,6 +36,8 @@ public class ModItemGroups {
 
                     entries.add(ModBlocks.PINK_GARNET_DOOR);
                     entries.add(ModBlocks.PINK_GARNET_TRAPDOOR);
+
+                    entries.add(ModBlocks.PINK_GARNET_LAMP);
                 }).build());
 
     public static final ItemGroup PINK_GARNET_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
