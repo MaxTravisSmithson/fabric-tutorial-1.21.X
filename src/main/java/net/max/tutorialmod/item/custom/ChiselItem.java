@@ -1,5 +1,6 @@
 package net.max.tutorialmod.item.custom;
 
+import net.max.tutorialmod.ModDataComponentTypes;
 import net.max.tutorialmod.block.ModBlocks;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
@@ -48,6 +49,8 @@ public class ChiselItem extends Item {
                         item -> context.getPlayer().sendEquipmentBreakStatus(item, EquipmentSlot.MAINHAND));
 
                 world.playSound(null, context.getBlockPos(), SoundEvents.BLOCK_GRINDSTONE_USE, SoundCategory.BLOCKS);
+
+                context.getStack().set(ModDataComponentTypes.COORDINATES, context.getBlockPos());
             }
         }
 
@@ -61,6 +64,11 @@ public class ChiselItem extends Item {
         } else {
             tooltip.add(Text.translatable("tooltip.tutorialmod.chisel"));
         }
+
+        if(stack.get(ModDataComponentTypes.COORDINATES) != null) {
+            tooltip.add(Text.literal("Last Block Changed at " + stack.get(ModDataComponentTypes.COORDINATES)));
+        }
+
         super.appendTooltip(stack, context, tooltip, type);
     }
 }
