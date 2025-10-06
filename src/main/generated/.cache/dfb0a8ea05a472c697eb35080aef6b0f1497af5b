@@ -1,4 +1,4 @@
-// 1.21.1	2025-10-04T23:42:15.8860246	Tutorial Mod/Recipes
+// 1.21.1	2025-10-06T23:26:52.4630106	Tutorial Mod/Recipes
 685a4898d1a0cb2fbbd8861831b8b896edb741e3 data\tutorialmod\recipe\pink_garnet_hoe.json
 185f47f01042d51e9fd74b545b2dd58898503e94 data\tutorialmod\recipe\pink_garnet_axe.json
 e3f64380bd08323f9a1aeb4a1032cd56cb84d361 data\tutorialmod\advancement\recipes\misc\pink_garnet_from_blasting_pink_garnet_ore.json
@@ -10,6 +10,7 @@ e1c6f06946338396b44604d89bd437490151ecc5 data\tutorialmod\advancement\recipes\mi
 e4ae33d7b5461829f0d6342e361ffab69adf9fbf data\tutorialmod\advancement\recipes\misc\pink_garnet_from_smelting_raw_pink_garnet.json
 ddcd5ef699cfc51237125286a55c26fbd514dd35 data\tutorialmod\recipe\pink_garnet_from_smelting_pink_garnet_deepslate_ore.json
 7a29690baea2a5fb1e1ee5fddb62a658740798dd data\tutorialmod\recipe\pink_garnet_sword.json
+47a7c4ad671425a4c3ad4ced463e5ec11f22b36a data\tutorialmod\advancement\recipes\misc\kaupen.json
 37d9986703d11e6566388c5a150cbcefd280b817 data\tutorialmod\advancement\recipes\misc\pink_garnet_hoe.json
 4a0e75e52f294acf0be30b154454aedada805ed5 data\tutorialmod\advancement\recipes\decorations\pink_garnet_block.json
 da415f625ebc9331383714ee60ff41204e6976b2 data\tutorialmod\advancement\recipes\misc\pink_garnet_from_blasting_pink_garnet_deepslate_ore.json
@@ -22,6 +23,7 @@ e1260b4092b73ab781af34acf4c2e8827ff85e45 data\tutorialmod\recipe\raw_pink_garnet
 b18544c5b369d7bce10daf9fa898c1588518c198 data\tutorialmod\recipe\pink_garnet_shovel.json
 639c5ffef47a412dfe119ac1f578e859d89b1780 data\tutorialmod\recipe\pink_garnet_pickaxe.json
 20ff29d6747251dc88039514f13ddbba87406ae1 data\tutorialmod\recipe\raw_pink_garnet_block.json
+d217172031c6e0e57ffb4794675db0dc37f1d73f data\tutorialmod\recipe\kaupen.json
 19829bd54ce48362e6e9addaa1bfb8c9df275f52 data\tutorialmod\advancement\recipes\misc\raw_pink_garnet.json
 7d143a859ca36f38fb3ea56dccd0ae1beb65cab4 data\tutorialmod\advancement\recipes\misc\pink_garnet_hammer.json
 739087f54df9d102dca5ba746b5b58da06a7803d data\tutorialmod\recipe\pink_garnet_hammer.json
