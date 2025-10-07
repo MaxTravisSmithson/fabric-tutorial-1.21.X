@@ -5,7 +5,6 @@ import net.max.tutorialmod.TutorialMod;
 import net.max.tutorialmod.item.ModItems;
 import net.minecraft.client.item.ModelPredicateProviderRegistry;
 import net.minecraft.item.Item;
-import net.minecraft.item.Items;
 import net.minecraft.util.Identifier;
 
 public class ModModelPredicates {
